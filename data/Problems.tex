@@ -1,0 +1,108 @@
+\documentclass{article}
+\usepackage[margin=2cm]{geometry}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage{enumerate}
+\usepackage{rotating}
+\usepackage{multirow}
+\usepackage{natbib}
+\usepackage{microtype}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{setspace}
+\onehalfspacing 
+\usepackage{float}
+\restylefloat{table}
+\DeclareMathOperator{\mvn}{MVN}
+\DeclareMathOperator{\gam}{Gamma}
+\DeclareMathOperator{\var}{var}
+\DeclareMathOperator{\corr}{corr}
+\newcommand{\vbeta}{\bm{\beta}}
+\newcommand{\vtheta}{\bm{\theta}}
+\newcommand{\vpsi}{\bm{\psi}}
+\newcommand{\vtau}{\bm{\tau}}
+%\newcommand{\hatvtheta}{\hat{\bm{\theta}}}
+\newcommand{\mSigma}{\bm{\Sigma}}
+\newcommand{\etopow}[1]{\mathrm{e}^{#1}}
+\setlength\parindent{0pt}
+\begin{document}
+
+\section*{Exercise}
+
+1)Read the $course\_data.csv$ file using function $read.csv()$.\\
+
+2) Create a new table for the data coming from the region "Hamburg".\\
+
+3) Find the variance and mean for the column Height for the region "Hamburg"\\
+
+4) Create a new table where the plant Height is less than 27\\
+
+5) Save the above table into the memory with the name "sub\_set.txt"
+
+6) Read the second Excel sheet in the $course\_data.xlsx$\\
+
+7) Create a scatter plot for the column 'gps' with color red and save it under the name 'example.pdf'.\\
+
+8) With the help of  $par()$ function create a plot having histogram and box plot for the column 'gre'.\\
+
+9) Create a loop to print the squares of the numbers between 1 to 5\\
+
+10) Write a function to multiply two numbers.\\
+
+11) Read the data file example.txt and create a scatter plot for the columns Land\_price and Apartment\_price with different colors for the cities\\
+
+12) Save the above file with the name 'price.png'\\
+
+13) Create a density plot for each cities in a single plot for the column Land\_price\\
+
+14) Create histograms for each year and each city in a single panel for the column Appartment\_price\\
+
+15) Read the file 'course\_example.txt'.\\
+
+16) Perform a test to check whether there is significance difference for the mean Yield between the location 1 and location 2\\
+
+17) Perform a F test between locations for the column Yield \\
+
+18) Perform a two way anova and Location and Type interaction for the trait 'Yield'\\
+
+19) Check for the normality for the different Type with the column using using q-q plot and Shapiro test \\
+
+20) Read the file sales.txt and perform a simple linear regression to regress Sales over spend.\\
+
+21) Use multiple linear regression to see the impact of Month on Sales\\
+
+22) plot the residuals for both simple and multiple regression.\\
+
+23) Read the file $birth\_data$ and the table contains the following columns\\
+
+low: indicator of birth weight less than 2.5 kg.\\
+age:mothers age in years\\
+lwt:mother's weight in pounds\\
+smoke:Smoking status\\
+ht:history of hypertension\\
+bwt:birth weight in grams\\
+
+24) Use generalized linear regression to see the impact of mothers age, weight, and smoking status  on the birth weight (low column) of the baby (using "binomial" distribution).\\
+
+25) Use generalized linear regression  to see the impact of mothers age, weight  on the birth weight of the baby (using a gaussian distribution)\\
+
+26) read the data $lmer\_exercise.txt$ data and use lmer to estimate the variance explained by Line.\\
+
+27) Estimate the variance explained by Line by Year interaction.\\
+
+28) Nest the effect of Place inside the factor Year then estimate the variance components.\\
+
+29) Perform model comparison using anova() for the two  models First with Place as fixed effect and Year as random, the second model Place as fixed effect and Year Line interaction as random effect.\\
+
+30) Calculate the Least Squares Mean for Places.
+
+31) Read the "cereals.txt" file and create the correlation plot.\\
+
+32) Perform a PCA analysis using $prcomp()$ function and plot the graph for variables and individuals using library $factoextra$.\\
+
+33) Calculate the distance matrix for the cereal brand using PCA output (rotated data).\\
+
+34) Find the number of cluster in the data and plot the main three cluster using ggplot.\\
+\end{document}
+
